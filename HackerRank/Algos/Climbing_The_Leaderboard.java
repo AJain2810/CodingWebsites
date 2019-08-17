@@ -13,7 +13,7 @@ import java.util.Set;
 public class Climbing_The_Leaderboard{
     private static final Scanner scanner = new Scanner(System.in);
 
-    public static void main(String[] args) throws IOException {
+    /*public static void main(String[] args) throws IOException {
         //BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
 
         int scoresCount = scanner.nextInt();
@@ -57,9 +57,11 @@ public class Climbing_The_Leaderboard{
 
         bufferedWriter.close();
         */
+       /*
         scanner.close();
     }
-
+    
+    */
     public static int[] climbingLeaderboard(int[] scores, int[] alice) {
         Set<Integer> scoores = new HashSet<Integer>();
         for(int i=0;i<scores.length; i++)
