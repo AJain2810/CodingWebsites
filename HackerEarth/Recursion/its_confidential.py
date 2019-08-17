@@ -9,4 +9,4 @@ for _ in range(int(raw_input())):
     s=raw_input()
     a=[]
     encode(s,0,n-1,a)
-    print ''.join(a)
+    print(''.join(a))
