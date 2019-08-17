@@ -20,7 +20,7 @@ def superDigitSum(num):
         temp=num
         num_sum=0
         while temp>0:
-            num_sum = temp%10
+            num_sum += temp%10
             temp = temp//10
     return superDigitSum(num_sum)
 
