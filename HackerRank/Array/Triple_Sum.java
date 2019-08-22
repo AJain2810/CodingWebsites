@@ -22,13 +22,13 @@ public class Triple_Sum{
 
         System.out.println(triplets(arr_1, arr_2, arr_3));
     }  
-    publ/*ic static long triplets(int[] a, int[] b, int[] c) {
+    public static long triplets(int[] a, int[] b, int[] c) {
 
         Arrays.sort(a);
         Arrays.sort(b);
         Arrays.sort(c);
         
-        int count = 0;
+        long count = 0;
         int temp = 0;
         int temp2 = 0;
         for (int i = 0; i < b.length; i++) {
@@ -56,13 +56,13 @@ public class Triple_Sum{
             }
             System.out.println(temp);
             System.out.println(temp2);
-            int res = (temp) * (temp2);
+            long res = (long)(temp) * (temp2);
             count += res;
         }
         return count;
-    }s
- */
-public static long triplets(int[] a, int[] b, int[] c) {
+    }
+ 
+public static long triplets_revamp(int[] a, int[] b, int[] c) {
 
     Arrays.sort(a);
     Arrays.sort(b);
