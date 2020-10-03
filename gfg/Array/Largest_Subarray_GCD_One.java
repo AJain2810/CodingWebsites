@@ -17,7 +17,7 @@ public class Largest_Subarray_GCD_One{
             gcd = GCD(gcd, arr[i]);
         }
         
-        ine res = (gcd==1)?size : -1;
+        int res = (gcd==1)?size : -1;
         System.out.println(res);
     }
 }
