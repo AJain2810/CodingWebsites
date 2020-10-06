@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.text.NumberFormat;
 import java.util.Locale;
 
-public class Solution {
+class Solution {
     public static void main(String[] args) {
         /* Save input */
         Scanner scan = new Scanner(System.in);
